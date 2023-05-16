@@ -1,5 +1,6 @@
 <?php
-class Movie {
+class Movie
+{
     public $title;
     public $description;
     public $director;
@@ -18,9 +19,10 @@ class Movie {
 
 $movies = [
     new Movie("Transformers", "Lorem", "Michael Bay", "Action", "2007"),
-    new Movie("Transformers, La vendetta del caduto", "Lorem", "Michael Bay", "Action", "2007"),
-    new Movie("Transformers 3", "Lorem", "Michael Bay", "Action", "2007"),
-    new Movie("Transformers 4, L'era dell'estinzione", "Lorem", "Michael Bay", "Action", "2007"),
+
+    new Movie("Transformers", "Lorem", "Michael Bay", "Action", "2007"),
+    new Movie("Transformers", "Lorem", "Michael Bay", "Action", "2007"),
+    new Movie("Transformers", "Lorem", "Michael Bay", "Action", "2007"),
 ]
 ?>
 
@@ -45,8 +47,6 @@ $movies = [
     <main>
 
     </main>
-
-
 
 </body>
 
